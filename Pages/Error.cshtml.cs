@@ -25,6 +25,7 @@ namespace aspnetcore3._1.Pages
 
         public void OnGet()
         {
+        //comment included
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         }
     }
